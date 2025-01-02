@@ -1,0 +1,14 @@
+[package]
+name = "csv2xlsx"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+xlsxwriter = "0.6.1"     # 或检查最新版本
+csv = "1.1"              # 用于处理CSV文件的crate
+indicatif = "0.16"       # 用于进度条的crate
+chrono = "0.4"           # 用于时间格式化
+# libxlsxwriter-sys = "1.1.7"
+
+[build-dependencies]
+cc = "1.0"
